@@ -24,15 +24,6 @@ How to use
 
 1. Download the Script
 
-Clone your repository or manually download the script onto your VPS.
-
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-
-Or if downloading directly:
-
-wget https://raw.githubusercontent.com/<your-username>/<your-repo>/main/install_letsencrypt_ssl.sh
-
 2. Make the Script Executable
 chmod +x install_letsencrypt_ssl.sh
 

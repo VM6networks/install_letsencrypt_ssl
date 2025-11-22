@@ -7,10 +7,15 @@ What it does
 This bash script automatically installs a Letsencrypt SSL certifcate on your VPS (once its setup with an A record and reachable). This script was made to run on UK VPS from https://www.vm6.co.uk/uk-vps-hosting however it should work on other KVM VPS environments as well. It will also work on VM6 Networks Dedicated servers found here https://www.vm6.co.uk/dedicated-servers 
 
 ✔ Installs Certbot
+
 ✔ Detects Debian/Ubuntu/CentOS/RHEL/Rocky/AlmaLinux
+
 ✔ Installs required web server plugins (Nginx, Apache or standalone)
+
 ✔ Prompts for the hostname (FQDN)
+
 ✔ Obtains and auto-renews an SSL cert
+
 ✔ Configures automatic renewal through systemd
 
 -------------------------------
